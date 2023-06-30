@@ -22,7 +22,7 @@ spec:
       containers:
       - name: simple-flask
         # image: IMAGE_TAG
-        image: arthurmvo/simple-flask
+        image: arthurmvo/basic-flask
         securityContext:
           privileged: false
           readOnlyRootFilesystem: false
