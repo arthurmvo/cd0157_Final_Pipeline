@@ -6,7 +6,8 @@ COPY . /app
 WORKDIR /app
 
 RUN pip install --upgrade pip
-RUN pip install flask==2.2.2
+RUN pip install flask==2.1.0
+RUN pip install Jinja2==3.0.3
 
 
 ENTRYPOINT ["python", "app.py"]
